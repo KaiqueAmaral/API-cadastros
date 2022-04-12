@@ -24,7 +24,7 @@ import com.api.cadastro.service.cadastroService;
 @RestController
 @RequestMapping("/")
 public class cadastroController {
-	
+	 
 	final cadastroService cadastroService;
 	
 	public cadastroController(cadastroService  cadastroService) {
